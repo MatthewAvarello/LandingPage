@@ -2,10 +2,65 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    padding: 0;
+    margin: 0;
 }
 .Header {
     min-height: 10vh;
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: #1F2937;
 }
 .Top {
     min-height: 25vh;
+    background-color: #1F2937;
+    justify-content: space-around;
+    display: flex;
+}
+.infos {
+    min-height: 20vh;
+}
+.Quotes {
+    min-height: 20vh;
+}
+.CTAcontainer {
+    min-height: 15vh;
+}
+.Footer {
+    min-height: 10vh;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.Headerlinks {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.HeaderLogo {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.headerul {
+    gap: 16px;
+}
+.Topleftside {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.Tlssideheader {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
